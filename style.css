@@ -160,7 +160,7 @@ nav .nav-items .line  {
 
 
 /* smaller to larger phones */
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:600px) {
 
     nav {
         box-shadow: 5px 5px 10px 1px #000;
@@ -176,8 +176,8 @@ nav .nav-items .line  {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: #181719;
-        transition: top 1s ease;
+        background-color: #000;
+        transition: linear 1s ease;
         display: none;
     }
 
