@@ -177,7 +177,7 @@ nav .nav-items .line  {
         justify-content: center;
         align-items: center;
         background-color: #000;
-        transition: linear 1s ease;
+        transition: top 1s ease;
         display: none;
     }
 
