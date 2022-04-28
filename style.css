@@ -34,6 +34,7 @@ h5 {
 .container {
     width: 1140px;
     margin: 0 auto;
+    padding: 0 30px;
 }
 
 .logo {
@@ -157,10 +158,20 @@ nav .nav-items .line  {
     color: #fff;
 }
 
+/* Smaller talets to bigger tablets */
+/* @media only screen and (max-width:1023px) {
+    .container {
+        width: 100%;
+    }
+    .img-text {
+        margin-right: 300px;
+    }
+} */
+
 
 
 /* smaller to larger phones */
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:968px) {
 
     nav {
         box-shadow: 5px 5px 10px 1px #000;
@@ -180,6 +191,7 @@ nav .nav-items .line  {
         transition: top 1s ease;
         display: none;
     }
+
 
     nav .nav-items .close-menu{
         display: block;
